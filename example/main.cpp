@@ -1,6 +1,4 @@
 #include "log.hpp"
-#include <iostream>
-#include <libgen.h>
 
 int main() {
   log_init(Debug);

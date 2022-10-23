@@ -124,7 +124,6 @@ Logger: CMakeFiles/Logger.dir/src/common/errors.cpp.o
 Logger: CMakeFiles/Logger.dir/src/log.cpp.o
 Logger: CMakeFiles/Logger.dir/example/main.cpp.o
 Logger: CMakeFiles/Logger.dir/build.make
-Logger: /usr/local/lib/libfmt.9.1.0.dylib
 Logger: CMakeFiles/Logger.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Logger"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Logger.dir/link.txt --verbose=$(VERBOSE)

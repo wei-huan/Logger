@@ -1,7 +1,6 @@
 #pragma once
 
 #include <chrono>
-#include <fmt/core.h>
 #include <fstream>
 #include <iostream>
 #include <libgen.h>
