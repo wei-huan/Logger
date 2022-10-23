@@ -1,3 +1,7 @@
 /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/Logger.dir
 /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/edit_cache.dir
 /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/rebuild_cache.dir
+/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/list_install_components.dir
+/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/install.dir
+/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/install/local.dir
+/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles/install/strip.dir
