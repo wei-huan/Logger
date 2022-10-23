@@ -73,43 +73,43 @@ CMakeFiles/Logger.dir/src/common/errors.cpp.o: CMakeFiles/Logger.dir/flags.make
 CMakeFiles/Logger.dir/src/common/errors.cpp.o: /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp
 CMakeFiles/Logger.dir/src/common/errors.cpp.o: CMakeFiles/Logger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Logger.dir/src/common/errors.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/src/common/errors.cpp.o -MF CMakeFiles/Logger.dir/src/common/errors.cpp.o.d -o CMakeFiles/Logger.dir/src/common/errors.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/src/common/errors.cpp.o -MF CMakeFiles/Logger.dir/src/common/errors.cpp.o.d -o CMakeFiles/Logger.dir/src/common/errors.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp
 
 CMakeFiles/Logger.dir/src/common/errors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logger.dir/src/common/errors.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp > CMakeFiles/Logger.dir/src/common/errors.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp > CMakeFiles/Logger.dir/src/common/errors.cpp.i
 
 CMakeFiles/Logger.dir/src/common/errors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logger.dir/src/common/errors.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp -o CMakeFiles/Logger.dir/src/common/errors.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp -o CMakeFiles/Logger.dir/src/common/errors.cpp.s
 
 CMakeFiles/Logger.dir/src/log.cpp.o: CMakeFiles/Logger.dir/flags.make
 CMakeFiles/Logger.dir/src/log.cpp.o: /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp
 CMakeFiles/Logger.dir/src/log.cpp.o: CMakeFiles/Logger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Logger.dir/src/log.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/src/log.cpp.o -MF CMakeFiles/Logger.dir/src/log.cpp.o.d -o CMakeFiles/Logger.dir/src/log.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/src/log.cpp.o -MF CMakeFiles/Logger.dir/src/log.cpp.o.d -o CMakeFiles/Logger.dir/src/log.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp
 
 CMakeFiles/Logger.dir/src/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logger.dir/src/log.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp > CMakeFiles/Logger.dir/src/log.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp > CMakeFiles/Logger.dir/src/log.cpp.i
 
 CMakeFiles/Logger.dir/src/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logger.dir/src/log.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp -o CMakeFiles/Logger.dir/src/log.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp -o CMakeFiles/Logger.dir/src/log.cpp.s
 
 CMakeFiles/Logger.dir/example/main.cpp.o: CMakeFiles/Logger.dir/flags.make
 CMakeFiles/Logger.dir/example/main.cpp.o: /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp
 CMakeFiles/Logger.dir/example/main.cpp.o: CMakeFiles/Logger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Logger.dir/example/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/example/main.cpp.o -MF CMakeFiles/Logger.dir/example/main.cpp.o.d -o CMakeFiles/Logger.dir/example/main.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logger.dir/example/main.cpp.o -MF CMakeFiles/Logger.dir/example/main.cpp.o.d -o CMakeFiles/Logger.dir/example/main.cpp.o -c /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp
 
 CMakeFiles/Logger.dir/example/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logger.dir/example/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp > CMakeFiles/Logger.dir/example/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp > CMakeFiles/Logger.dir/example/main.cpp.i
 
 CMakeFiles/Logger.dir/example/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logger.dir/example/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp -o CMakeFiles/Logger.dir/example/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp -o CMakeFiles/Logger.dir/example/main.cpp.s
 
 # Object files for target Logger
 Logger_OBJECTS = \

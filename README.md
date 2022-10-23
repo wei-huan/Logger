@@ -6,13 +6,14 @@ Simple toy logger for my other project which supports multi level control, outpu
 
 ```shell
 cd Logger
-cmake .
+cmake -S . -B ./build
+cd build
 make
 ```
 
 ## Run
-
 ```shell
+cd ..
 ./build/Logger
 [19:09:28][Fatal][example/main.cpp:6]Huge Problem, Abort!
 [19:09:28][Error][example/main.cpp:7]Find a question, tackle it, Now!

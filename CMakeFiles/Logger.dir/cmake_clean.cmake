@@ -1,10 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Logger.dir/example/main.cpp.o"
   "CMakeFiles/Logger.dir/example/main.cpp.o.d"
-  "CMakeFiles/Logger.dir/src/common/errors.cpp.o"
-  "CMakeFiles/Logger.dir/src/common/errors.cpp.o.d"
-  "CMakeFiles/Logger.dir/src/log.cpp.o"
-  "CMakeFiles/Logger.dir/src/log.cpp.o.d"
   "Logger"
   "Logger.pdb"
 )
