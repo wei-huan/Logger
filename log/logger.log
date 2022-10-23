@@ -1,0 +1,18 @@
+[21:50:57][0;31m[Fatal][0m[example/main.cpp:15]123 123
+[21:50:57][0;33m[Error][0m[example/main.cpp:16]123 123
+[21:50:57][1;33m[Warn ][0m[example/main.cpp:17]123 123
+[21:50:57][0;34m[Info ][0m[example/main.cpp:18]123 123
+[21:50:57][0;32m[Debug][0m[example/main.cpp:19]123 123
+[21:50:57][0;35m[Trace][0m[example/main.cpp:20]123 123
+[21:54:24][0;31m[Fatal][0m[example/main.cpp:15]Huge Problem, Abort
+[21:54:24][0;33m[Error][0m[example/main.cpp:16]Find Question, tackle it, Now!
+[21:54:24][1;33m[Warn ][0m[example/main.cpp:17]Something went wrong, please check
+[21:54:24][0;34m[Info ][0m[example/main.cpp:18]We capture a situation
+[21:54:24][0;32m[Debug][0m[example/main.cpp:19]Is it what you expect
+[21:54:24][0;35m[Trace][0m[example/main.cpp:20]Recording, every thing just fine
+[21:55:44][0;31m[Fatal][0m[example/main.cpp:15]Huge Problem, Abort
+[21:55:44][0;33m[Error][0m[example/main.cpp:16]Find Question, tackle it, Now!
+[21:55:44][1;33m[Warn ][0m[example/main.cpp:17]Something went wrong, please check
+[21:55:44][0;34m[Info ][0m[example/main.cpp:18]We capture a situation, Announcing you
+[21:55:44][0;32m[Debug][0m[example/main.cpp:19]Is it what you expect
+[21:55:44][0;35m[Trace][0m[example/main.cpp:20]Recording, every thing just fine
