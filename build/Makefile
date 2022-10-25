@@ -85,51 +85,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.24.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build/CMakeFiles /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/build//CMakeFiles/progress.marks
@@ -160,6 +115,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named logger_sta
+
+# Build rule for target.
+logger_sta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_sta
+.PHONY : logger_sta
+
+# fast build rule for target.
+logger_sta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/build
+.PHONY : logger_sta/fast
+
+#=============================================================================
+# Target rules for targets named logger_dyn
+
+# Build rule for target.
+logger_dyn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_dyn
+.PHONY : logger_dyn
+
+# fast build rule for target.
+logger_dyn/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/build
+.PHONY : logger_dyn/fast
 
 #=============================================================================
 # Target rules for targets named Logger
@@ -198,35 +179,13 @@ example/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/example/main.cpp.s
 .PHONY : example/main.cpp.s
 
-src/common/errors.o: src/common/errors.cpp.o
-.PHONY : src/common/errors.o
-
-# target to build an object file
-src/common/errors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/common/errors.cpp.o
-.PHONY : src/common/errors.cpp.o
-
-src/common/errors.i: src/common/errors.cpp.i
-.PHONY : src/common/errors.i
-
-# target to preprocess a source file
-src/common/errors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/common/errors.cpp.i
-.PHONY : src/common/errors.cpp.i
-
-src/common/errors.s: src/common/errors.cpp.s
-.PHONY : src/common/errors.s
-
-# target to generate assembly for a file
-src/common/errors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/common/errors.cpp.s
-.PHONY : src/common/errors.cpp.s
-
 src/log.o: src/log.cpp.o
 .PHONY : src/log.o
 
 # target to build an object file
 src/log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.o
 .PHONY : src/log.cpp.o
 
@@ -235,6 +194,8 @@ src/log.i: src/log.cpp.i
 
 # target to preprocess a source file
 src/log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.i
 .PHONY : src/log.cpp.i
 
@@ -243,6 +204,8 @@ src/log.s: src/log.cpp.s
 
 # target to generate assembly for a file
 src/log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
 
@@ -253,18 +216,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Logger"
+	@echo "... logger_dyn"
+	@echo "... logger_sta"
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"
-	@echo "... src/common/errors.o"
-	@echo "... src/common/errors.i"
-	@echo "... src/common/errors.s"
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"

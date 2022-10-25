@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DSOURCE_PATH_SIZE=45
 
-CXX_INCLUDES = -I/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src
+CXX_INCLUDES = -I/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/include
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -g -std=c++17 -O3
 

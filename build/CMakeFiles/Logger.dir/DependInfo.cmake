@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp" "CMakeFiles/Logger.dir/example/main.cpp.o" "gcc" "CMakeFiles/Logger.dir/example/main.cpp.o.d"
-  "/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/common/errors.cpp" "CMakeFiles/Logger.dir/src/common/errors.cpp.o" "gcc" "CMakeFiles/Logger.dir/src/common/errors.cpp.o.d"
   "/Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.cpp" "CMakeFiles/Logger.dir/src/log.cpp.o" "gcc" "CMakeFiles/Logger.dir/src/log.cpp.o.d"
   )
 
