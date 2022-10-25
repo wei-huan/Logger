@@ -117,32 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named logger_sta
-
-# Build rule for target.
-logger_sta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_sta
-.PHONY : logger_sta
-
-# fast build rule for target.
-logger_sta/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/build
-.PHONY : logger_sta/fast
-
-#=============================================================================
-# Target rules for targets named logger_dyn
-
-# Build rule for target.
-logger_dyn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_dyn
-.PHONY : logger_dyn
-
-# fast build rule for target.
-logger_dyn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/build
-.PHONY : logger_dyn/fast
-
-#=============================================================================
 # Target rules for targets named Logger
 
 # Build rule for target.
@@ -184,8 +158,6 @@ src/log.o: src/log.cpp.o
 
 # target to build an object file
 src/log.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.o
 .PHONY : src/log.cpp.o
 
@@ -194,8 +166,6 @@ src/log.i: src/log.cpp.i
 
 # target to preprocess a source file
 src/log.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.i
 .PHONY : src/log.cpp.i
 
@@ -204,8 +174,6 @@ src/log.s: src/log.cpp.s
 
 # target to generate assembly for a file
 src/log.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_sta.dir/build.make CMakeFiles/logger_sta.dir/src/log.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_dyn.dir/build.make CMakeFiles/logger_dyn.dir/src/log.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
 
@@ -218,8 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Logger"
-	@echo "... logger_dyn"
-	@echo "... logger_sta"
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"

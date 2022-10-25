@@ -1,6 +1,6 @@
 CMakeFiles/Logger.dir/example/main.cpp.o: \
   /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/example/main.cpp \
-  /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/include/log.hpp \
+  /Users/tanghaozhe/WorkSpace/Basic/CPP/Logger/src/log.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
